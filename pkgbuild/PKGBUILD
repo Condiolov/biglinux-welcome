@@ -8,7 +8,7 @@ license=('GPL')
 pkgdesc="Scripts and configuration files created in GTK4 that simplify switching BigLinux operation."
 depends=('gtk4' 'python' 'polkit' 'zenity' 'python-yaml')
 url="https://github.com/biglinux/$pkgname"
-conflicts=('')
+# conflicts=('')
 source=("git+${url}.git")
 md5sums=(SKIP)
 if [ -e "${pkgname}.install" ];then
