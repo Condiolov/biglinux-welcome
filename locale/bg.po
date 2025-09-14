@@ -22,3 +22,140 @@ msgstr "Не можа да зареди страниците за добре д�
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
 msgid "Check if 'pages.yaml' exists and is correctly formatted."
 msgstr "Проверете дали 'pages.yaml' съществува и е правилно форматиран."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "AppStore"
+msgstr "AppStore"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 14
+msgid "Big Store"
+msgstr "Голям магазин"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
+msgid "BigLinux Info"
+msgstr "BigLinux Информация"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Choose Your Avatar"
+msgstr "Изберете своя аватар"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 17
+msgid "Choose your default browser"
+msgstr "Изберете вашия браузър по подразбиране"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 18
+msgid "Configure voice"
+msgstr "Конфигурирайте гласа"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 19
+msgid "Control Center"
+msgstr "Контролен център"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 20
+msgid "Discover some features"
+msgstr "Открийте някои функции"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 21
+msgid "Display Settings"
+msgstr "Настройки на дисплея"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 22
+msgid "Donate"
+msgstr "Дарение"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 23
+msgid "Donation and Social Networks"
+msgstr "Дарение и социални мрежи"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 24
+msgid "Driver Installation and Hardware Information"
+msgstr "Инсталиране на драйвери и информация за хардуер"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 25
+msgid "Driver Manager"
+msgstr "Мениджър на драйвери"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 26
+msgid "Firefox"
+msgstr "Файрфокс"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 27
+msgid "Forum"
+msgstr "Форум"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 28
+msgid "Google Chrome"
+msgstr "Google Chrome"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 29
+msgid "Initial Settings"
+msgstr "Начални настройки"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 30
+msgid "Install or Remove Drivers and Firmwares easily."
+msgstr "Лесно инсталирайте или премахвайте драйвери и фърмуер."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 31
+msgid "KDE Connect"
+msgstr "KDE Connect"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 32
+msgid ""
+"KDE Connect is an application that facilitates wireless communication and data transfer between "
+"devices on local networks. Available on the Google Play Store for Android and the Apple Store for "
+"iPhone."
+msgstr ""
+"KDE Connect е приложение, което улеснява безжичната комуникация и пренос на данни между устройства "
+"в локални мрежи. Наличен в Google Play Store за Android и Apple Store за iPhone."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
+msgid "Language Packs"
+msgstr "Езикови пакети"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
+msgid "Noise Reduction"
+msgstr "Редукция на шума"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 35
+msgid "OCR to PDF"
+msgstr "OCR към PDF"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 36
+msgid "Our platform is collaborative, join this evolution."
+msgstr "Нашата платформа е колаборативна, присъединете се към тази еволюция."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 37
+msgid "PlayStore"
+msgstr "PlayStore"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
+msgid "Printers"
+msgstr "Принтери"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
+msgid "Set your default programs."
+msgstr "Настройте вашите програми по подразбиране."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Telegram"
+msgstr "Телеграм"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
+msgid "Themes and Tweaks"
+msgstr "Темите и настройките"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 42
+msgid "We provide comprehensive settings for you to select in an extremely simple way."
+msgstr "Предоставяме обширни настройки, от които да изберете по изключително прост начин."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "WebApps"
+msgstr "Уеб приложения"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 44
+msgid "YouTube"
+msgstr "Ютюб"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 45
+msgid "Your donation is very important for the project and follow us on social media."
+msgstr "Вашето дарение е много важно за проекта и ни последвайте в социалните медии."

@@ -22,3 +22,140 @@ msgstr "환영 페이지를 로드할 수 없습니다."
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
 msgid "Check if 'pages.yaml' exists and is correctly formatted."
 msgstr "'pages.yaml'이 존재하고 올바르게 형식이 지정되었는지 확인하십시오."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "AppStore"
+msgstr "앱스토어"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 14
+msgid "Big Store"
+msgstr "대형 매장"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
+msgid "BigLinux Info"
+msgstr "빅리눅스 정보"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Choose Your Avatar"
+msgstr "아바타 선택하기"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 17
+msgid "Choose your default browser"
+msgstr "기본 브라우저를 선택하세요."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 18
+msgid "Configure voice"
+msgstr "음성 구성"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 19
+msgid "Control Center"
+msgstr "제어 센터"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 20
+msgid "Discover some features"
+msgstr "일부 기능을 발견하세요."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 21
+msgid "Display Settings"
+msgstr "디스플레이 설정"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 22
+msgid "Donate"
+msgstr "기부하다"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 23
+msgid "Donation and Social Networks"
+msgstr "기부 및 소셜 네트워크"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 24
+msgid "Driver Installation and Hardware Information"
+msgstr "드라이버 설치 및 하드웨어 정보"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 25
+msgid "Driver Manager"
+msgstr "드라이버 관리자"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 26
+msgid "Firefox"
+msgstr "파이어폭스"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 27
+msgid "Forum"
+msgstr "포럼"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 28
+msgid "Google Chrome"
+msgstr "구글 크롬"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 29
+msgid "Initial Settings"
+msgstr "초기 설정"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 30
+msgid "Install or Remove Drivers and Firmwares easily."
+msgstr "드라이버 및 펌웨어를 쉽게 설치하거나 제거하세요."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 31
+msgid "KDE Connect"
+msgstr "KDE 연결"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 32
+msgid ""
+"KDE Connect is an application that facilitates wireless communication and data transfer between "
+"devices on local networks. Available on the Google Play Store for Android and the Apple Store for "
+"iPhone."
+msgstr ""
+"KDE Connect는 로컬 네트워크에서 장치 간의 무선 통신 및 데이터 전송을 용이하게 하는 애플리케이션입니다. Android용 Google Play 스토어와 iPhone용 "
+"Apple 스토어에서 사용할 수 있습니다."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
+msgid "Language Packs"
+msgstr "언어 팩"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
+msgid "Noise Reduction"
+msgstr "소음 감소"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 35
+msgid "OCR to PDF"
+msgstr "OCR에서 PDF로"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 36
+msgid "Our platform is collaborative, join this evolution."
+msgstr "우리 플랫폼은 협업적입니다. 이 진화에 참여하세요."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 37
+msgid "PlayStore"
+msgstr "플레이스토어"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
+msgid "Printers"
+msgstr "프린터"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
+msgid "Set your default programs."
+msgstr "기본 프로그램을 설정하세요."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Telegram"
+msgstr "텔레그램"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
+msgid "Themes and Tweaks"
+msgstr "테마 및 조정"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 42
+msgid "We provide comprehensive settings for you to select in an extremely simple way."
+msgstr "우리는 매우 간단한 방법으로 선택할 수 있는 포괄적인 설정을 제공합니다."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "WebApps"
+msgstr "웹앱"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 44
+msgid "YouTube"
+msgstr "유튜브"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 45
+msgid "Your donation is very important for the project and follow us on social media."
+msgstr "귀하의 기부는 프로젝트에 매우 중요하며, 소셜 미디어에서 저희를 팔로우해 주세요."

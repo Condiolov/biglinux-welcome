@@ -22,3 +22,141 @@ msgstr "Δεν ήταν δυνατή η φόρτωση των σελίδων κ�
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
 msgid "Check if 'pages.yaml' exists and is correctly formatted."
 msgstr "Ελέγξτε αν το 'pages.yaml' υπάρχει και είναι σωστά μορφοποιημένο."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "AppStore"
+msgstr "Κατάστημα Εφαρμογών"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 14
+msgid "Big Store"
+msgstr "Μεγάλο Κατάστημα"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
+msgid "BigLinux Info"
+msgstr "BigLinux Πληροφορίες"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Choose Your Avatar"
+msgstr "Επιλέξτε τον Άβατάρ σας"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 17
+msgid "Choose your default browser"
+msgstr "Επιλέξτε τον προεπιλεγμένο σας περιηγητή"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 18
+msgid "Configure voice"
+msgstr "Ρυθμίστε τη φωνή"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 19
+msgid "Control Center"
+msgstr "Κέντρο Ελέγχου"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 20
+msgid "Discover some features"
+msgstr "Ανακαλύψτε μερικά χαρακτηριστικά"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 21
+msgid "Display Settings"
+msgstr "Ρυθμίσεις Οθόνης"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 22
+msgid "Donate"
+msgstr "Δωρεά"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 23
+msgid "Donation and Social Networks"
+msgstr "Δωρεά και Κοινωνικά Δίκτυα"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 24
+msgid "Driver Installation and Hardware Information"
+msgstr "Εγκατάσταση οδηγών και πληροφορίες υλικού"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 25
+msgid "Driver Manager"
+msgstr "Διαχειριστής Οδηγών"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 26
+msgid "Firefox"
+msgstr "ΦαIREFOX"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 27
+msgid "Forum"
+msgstr "Φόρουμ"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 28
+msgid "Google Chrome"
+msgstr "Google Chrome"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 29
+msgid "Initial Settings"
+msgstr "Αρχικές Ρυθμίσεις"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 30
+msgid "Install or Remove Drivers and Firmwares easily."
+msgstr "Εγκαταστήστε ή αφαιρέστε εύκολα τους οδηγούς και τα υλικολογισμικά."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 31
+msgid "KDE Connect"
+msgstr "KDE Connect"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 32
+msgid ""
+"KDE Connect is an application that facilitates wireless communication and data transfer between "
+"devices on local networks. Available on the Google Play Store for Android and the Apple Store for "
+"iPhone."
+msgstr ""
+"Το KDE Connect είναι μια εφαρμογή που διευκολύνει την ασύρματη επικοινωνία και τη μεταφορά "
+"δεδομένων μεταξύ συσκευών σε τοπικά δίκτυα. Διαθέσιμο στο Google Play Store για Android και στο "
+"Apple Store για iPhone."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
+msgid "Language Packs"
+msgstr "Γλωσσικά Πακέτα"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
+msgid "Noise Reduction"
+msgstr "Μείωση Θορύβου"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 35
+msgid "OCR to PDF"
+msgstr "OCR σε PDF"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 36
+msgid "Our platform is collaborative, join this evolution."
+msgstr "Η πλατφόρμα μας είναι συνεργατική, συμμετάσχετε σε αυτήν την εξέλιξη."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 37
+msgid "PlayStore"
+msgstr "PlayStore"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
+msgid "Printers"
+msgstr "Εκτυπωτές"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
+msgid "Set your default programs."
+msgstr "Ρυθμίστε τα προεπιλεγμένα προγράμματα."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Telegram"
+msgstr "Τηλέγραμμα"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
+msgid "Themes and Tweaks"
+msgstr "Θέματα και Ρυθμίσεις"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 42
+msgid "We provide comprehensive settings for you to select in an extremely simple way."
+msgstr "Παρέχουμε ολοκληρωμένες ρυθμίσεις για να επιλέξετε με εξαιρετικά απλό τρόπο."
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "WebApps"
+msgstr "Ιστοσελίδες εφαρμογών"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 44
+msgid "YouTube"
+msgstr "YouTube"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 45
+msgid "Your donation is very important for the project and follow us on social media."
+msgstr "Η δωρεά σας είναι πολύ σημαντική για το έργο και ακολουθήστε μας στα μέσα κοινωνικής δικτύωσης."

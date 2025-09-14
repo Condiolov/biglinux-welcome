@@ -22,3 +22,138 @@ msgstr "无法加载欢迎页面"
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 141
 msgid "Check if 'pages.yaml' exists and is correctly formatted."
 msgstr "检查 'pages.yaml' 是否存在并且格式正确。"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 13
+msgid "AppStore"
+msgstr "应用商店"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 14
+msgid "Big Store"
+msgstr "大商店"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
+msgid "BigLinux Info"
+msgstr "BigLinux 信息"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Choose Your Avatar"
+msgstr "选择您的头像"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 17
+msgid "Choose your default browser"
+msgstr "选择您的默认浏览器"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 18
+msgid "Configure voice"
+msgstr "配置语音"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 19
+msgid "Control Center"
+msgstr "控制中心"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 20
+msgid "Discover some features"
+msgstr "发现一些功能"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 21
+msgid "Display Settings"
+msgstr "显示设置"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 22
+msgid "Donate"
+msgstr "捐赠"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 23
+msgid "Donation and Social Networks"
+msgstr "捐赠和社交网络"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 24
+msgid "Driver Installation and Hardware Information"
+msgstr "驱动程序安装和硬件信息"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 25
+msgid "Driver Manager"
+msgstr "驱动程序管理器"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 26
+msgid "Firefox"
+msgstr "火狐浏览器"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 27
+msgid "Forum"
+msgstr "论坛"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 28
+msgid "Google Chrome"
+msgstr "谷歌浏览器"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 29
+msgid "Initial Settings"
+msgstr "初始设置"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 30
+msgid "Install or Remove Drivers and Firmwares easily."
+msgstr "轻松安装或卸载驱动程序和固件。"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 31
+msgid "KDE Connect"
+msgstr "KDE Connect"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 32
+msgid ""
+"KDE Connect is an application that facilitates wireless communication and data transfer between "
+"devices on local networks. Available on the Google Play Store for Android and the Apple Store for "
+"iPhone."
+msgstr "KDE Connect 是一款促进本地网络设备之间无线通信和数据传输的应用程序。可在 Android 的 Google Play 商店和 iPhone 的 Apple Store 上获取。"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 33
+msgid "Language Packs"
+msgstr "语言包"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
+msgid "Noise Reduction"
+msgstr "噪声减少"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 35
+msgid "OCR to PDF"
+msgstr "OCR 转 PDF"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 36
+msgid "Our platform is collaborative, join this evolution."
+msgstr "我们的平台是协作的，加入这一进化。"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 37
+msgid "PlayStore"
+msgstr "Play商店"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
+msgid "Printers"
+msgstr "打印机"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
+msgid "Set your default programs."
+msgstr "设置默认程序。"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Telegram"
+msgstr "电报"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
+msgid "Themes and Tweaks"
+msgstr "主题和调整"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 42
+msgid "We provide comprehensive settings for you to select in an extremely simple way."
+msgstr "我们提供全面的设置供您以极其简单的方式进行选择。"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 43
+msgid "WebApps"
+msgstr "网络应用程序"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 44
+msgid "YouTube"
+msgstr "YouTube"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 45
+msgid "Your donation is very important for the project and follow us on social media."
+msgstr "您的捐赠对该项目非常重要，并请在社交媒体上关注我们。"
