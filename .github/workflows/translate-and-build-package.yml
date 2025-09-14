@@ -47,6 +47,17 @@ jobs:
         uses: mxschmitt/action-tmate@v3
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
 
+      - name: Generate Translatable Strings File
+        shell: bash
+        run: |
+          # Caminho para o código-fonte da aplicação
+          APP_SOURCE_DIR="usr/share/biglinux/welcome"
+
+          # Executa o script gerador
+          python3 generate_strings.py \
+            "${APP_SOURCE_DIR}/pages.yaml" \
+            "${APP_SOURCE_DIR}/translatable_strings.py"
+
       - name: Translate Package
         shell: bash #-O extglob {0}
         env:
