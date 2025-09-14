@@ -14,6 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Browser Install"
+msgstr "Böngésző telepítése"
+msgid "Browser installed successfully!"
+msgstr "Böngésző sikeresen telepítve!"
+msgid "An error occurred while install browser."
+msgstr "Hiba történt a böngésző telepítésekor."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 140
 msgid "Could Not Load Welcome Pages"
@@ -34,6 +40,10 @@ msgstr "Nagy Áruház"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
 msgid "BigLinux Info"
 msgstr "BigLinux Információ"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Brave"
+msgstr "Bátor"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
 msgid "Choose Your Avatar"
@@ -133,9 +143,9 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Nyomtatók"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
-msgid "Set your default programs."
-msgstr "Állítsa be az alapértelmezett programjait."
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Set your default browser."
+msgstr "Állítsa be az alapértelmezett böngészőt."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"

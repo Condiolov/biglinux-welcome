@@ -14,6 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Browser Install"
+msgstr "浏览器安装"
+msgid "Browser installed successfully!"
+msgstr "浏览器安装成功！"
+msgid "An error occurred while install browser."
+msgstr "安装浏览器时发生错误。"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 140
 msgid "Could Not Load Welcome Pages"
@@ -34,6 +40,10 @@ msgstr "大商店"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
 msgid "BigLinux Info"
 msgstr "BigLinux 信息"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Brave"
+msgstr "勇敢"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
 msgid "Choose Your Avatar"
@@ -130,9 +140,9 @@ msgstr "Play商店"
 msgid "Printers"
 msgstr "打印机"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
-msgid "Set your default programs."
-msgstr "设置默认程序。"
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Set your default browser."
+msgstr "设置您的默认浏览器。"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"

@@ -14,6 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Browser Install"
+msgstr "Установка браузера"
+msgid "Browser installed successfully!"
+msgstr "Браузер успешно установлен!"
+msgid "An error occurred while install browser."
+msgstr "Произошла ошибка при установке браузера."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 140
 msgid "Could Not Load Welcome Pages"
@@ -34,6 +40,10 @@ msgstr "Большой магазин"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
 msgid "BigLinux Info"
 msgstr "BigLinux Информация"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Brave"
+msgstr "Брейв"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
 msgid "Choose Your Avatar"
@@ -132,9 +142,9 @@ msgstr "PlayMarket"
 msgid "Printers"
 msgstr "Принтеры"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
-msgid "Set your default programs."
-msgstr "Установите свои программы по умолчанию."
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Set your default browser."
+msgstr "Установите ваш браузер по умолчанию."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"

@@ -14,6 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Browser Install"
+msgstr "Brauseri installimine"
+msgid "Browser installed successfully!"
+msgstr "Brauser on edukalt installitud!"
+msgid "An error occurred while install browser."
+msgstr "Brauseri installimise ajal tekkis viga."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/main.py, line: 140
 msgid "Could Not Load Welcome Pages"
@@ -34,6 +40,10 @@ msgstr "Suur Pood"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 15
 msgid "BigLinux Info"
 msgstr "BigLinuxi teave"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
+msgid "Brave"
+msgstr "Julge"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 16
 msgid "Choose Your Avatar"
@@ -132,9 +142,9 @@ msgstr "PlayStore"
 msgid "Printers"
 msgstr "Printerid"
 # 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 39
-msgid "Set your default programs."
-msgstr "Sead oma vaikeprogrammid."
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
+msgid "Set your default browser."
+msgstr "Seadke oma vaikebrauser."
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 40
 msgid "Telegram"
