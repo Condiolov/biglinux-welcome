@@ -1,0 +1,136 @@
+- title: "Initial Settings"
+  subtitle: "We provide comprehensive settings for you to select in an extremely simple way."
+  icon: "preferences-system-symbolic"
+  actions:
+    - label: "Display Settings"
+      icon: "video-display-symbolic"
+      type: "app"
+      command: "kcmshell6 kcm_kscreen"
+
+    - label: "Themes and Tweaks"
+      icon: "preferences-desktop-theme-symbolic"
+      type: "app"
+      command: "big-theme-gui"
+
+    - label: "Choose Your Avatar"
+      icon: "avatar-default-symbolic"
+      type: "app"
+      command: "kcmshell6 kcm_users"
+
+    - label: "Language Packs"
+      icon: "preferences-desktop-locale-symbolic"
+      type: "app"
+      # type: "script"
+      command: "kcmshell6 kcm_regionandlang"
+      # command: "scripts/example.sh"
+
+- title: "Choose your default browser"
+  subtitle: "Set your default programs."
+  icon: "internet-web-browser-symbolic"
+  actions:
+    - label: "Firefox"
+      icon: "firefox"
+      type: "app"
+      command: "firefox"
+
+    - label: "Google Chrome"
+      icon: "google-chrome"
+      type: "app"
+      command: "google-chrome-stable"
+
+- title: "KDE Connect"
+  subtitle: "KDE Connect is an application that facilitates wireless communication and data transfer between devices on local networks. Available on the Google Play Store for Android and the Apple Store for iPhone."
+  icon: "kdeconnect-symbolic"
+  actions:
+    - label: "PlayStore"
+      icon: "kde-connect-playstore-qrcode.svg"
+      type: "image"
+      command: ""
+
+    - label: "KDE Connect"
+      icon: "kdeconnect"
+      type: "app"
+      command: "kdeconnect-app"
+
+    - label: "AppStore"
+      icon: "kde-connect-appstore-qrcode.svg"
+      type: "image"
+      command: ""
+
+- title: "Driver Installation and Hardware Information"
+  subtitle: "Install or Remove Drivers and Firmwares easily."
+  icon: "cpu-symbolic"
+  actions:
+    - label: "Driver Manager"
+      icon: "big-driver-manager"
+      type: "app"
+      command: "big-driver-manager"
+
+    - label: "BigLinux Info"
+      icon: "big-hardware-info"
+      type: "app"
+      command: "big-hardware-info"
+
+    - label: "Printers"
+      icon: "printer"
+      type: "app"
+      command: "system-config-printer"
+
+
+- title: "Discover some features"
+  subtitle: "Our platform is collaborative, join this evolution."
+  icon: "applications-system-symbolic"
+  actions:
+    - label: "Control Center"
+      icon: "bigcontrolcenter"
+      type: "app"
+      command: "bigcontrolcenter"
+
+    - label: "Big Store"
+      icon: "big-store"
+      type: "app"
+      command: "big-store"
+
+    - label: "WebApps"
+      icon: "big-webapps"
+      type: "app"
+      command: "big-webapps-gui"
+
+    - label: "Noise Reduction"
+      icon: "biglinux-noise-reduction-pipewire"
+      type: "app"
+      command: "big-microphone-noise-reduction"
+
+    - label: "Configure voice"
+      icon: "/usr/share/bigbashview/bcc/apps/tts/icon-grid-texto-fala-tts.svg"
+      type: "app"
+      command: "tts-selected-text"
+
+    - label: "OCR to PDF"
+      icon: "bigocrpdf"
+      type: "app"
+      command: "bigocrpdf %F"
+
+- title: "Donation and Social Networks"
+  subtitle: "Your donation is very important for the project and follow us on social media."
+  icon: "help-donate-ars-symbolic"
+  actions:
+    - label: "Donate"
+      icon: "donate"
+      type: "url"
+      command: "https://www.biglinux.com.br/doacao-financeira/"
+
+    - label: "Forum"
+      icon: "webapp-biglinux-globo"
+      type: "url"
+      command: "https://forum.biglinux.com.br"
+
+    - label: "YouTube"
+      icon: "webapp-g-youtube"
+      type: "url"
+      command: "https://www.youtube.com/@BigLinuxx"
+
+    - label: "Telegram"
+      icon: "telegram"
+      type: "url"
+      command: "https://t.me/biglinux"
