@@ -1,6 +1,6 @@
 import gi
 gi.require_version('Gtk', '4.0')
-from gi.repository import Gtk
+from gi.repository import Gtk, GdkPixbuf, GLib
 import os
 
 class BrowserWidget(Gtk.Box):
@@ -22,23 +22,33 @@ class BrowserWidget(Gtk.Box):
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.button.set_child(content_box)
 
-        # Icon - Load from our local path first
-        icon_path = os.path.join(self.app_path, "image", "browsers", f"{browser_data['icon']}.svg")
-        self.icon = Gtk.Image.new_from_file(icon_path)
-        # Fallback in case file doesn't exist, though it should.
-        if not os.path.exists(icon_path):
-            self.icon = Gtk.Image.new_from_icon_name(browser_data['icon'])
-        self.icon.set_pixel_size(64)
+        # Create a fixed-size container. This ensures all icons have the same layout space.
+        icon_container = Gtk.Box()
+        icon_container.set_size_request(64, 64)
+
+        # Render the SVG to a Pixbuf at the exact target size to ensure sharpness.
+        icon_path = os.path.join(self.app_path, "image", "browsers", f"{browser_data['package']}.svg")
+        try:
+            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(icon_path, 64, 64)
+            icon_widget = Gtk.Image.new_from_pixbuf(pixbuf)
+        except GLib.Error as e:
+            print(f"Error loading icon {icon_path}: {e}. Using fallback.")
+            icon_widget = Gtk.Image.new_from_icon_name("image-missing-symbolic")
+            icon_widget.set_pixel_size(64)
+
+        # Allow the icon widget to expand and fill the fixed-size container.
+        icon_widget.set_hexpand(True)
+        icon_widget.set_vexpand(True)
+        icon_container.append(icon_widget)
 
         # Checkmark Overlay
         self.check_icon = Gtk.Image.new_from_icon_name("object-select-symbolic")
-        self.check_icon.add_css_class("success") # For green color styling
+        self.check_icon.add_css_class("success")
 
         self.overlay = Gtk.Overlay()
-        self.overlay.set_child(self.icon)
+        self.overlay.set_child(icon_container)
         self.overlay.add_overlay(self.check_icon)
         self.overlay.set_measure_overlay(self.check_icon, True)
-        # Align checkmark to the bottom right
         self.check_icon.set_halign(Gtk.Align.END)
         self.check_icon.set_valign(Gtk.Align.END)
 
@@ -47,11 +57,14 @@ class BrowserWidget(Gtk.Box):
         # Label
         label_widget = Gtk.Label(label=browser_data['label'])
         label_widget.set_wrap(True)
+        label_widget.set_justify(Gtk.Justification.CENTER)
+        # Force the label to reserve space for 2 lines to ensure all widgets have the same height
+        label_widget.set_lines(2)
         content_box.append(label_widget)
 
         self.append(self.button)
-        self.set_installed(False) # Default state
-        self.set_default(False)   # Default state
+        self.set_installed(False)
+        self.set_default(False)
 
     def set_installed(self, is_installed):
         """Sets the visual state to installed or not installed."""

@@ -27,7 +27,7 @@ class BrowserPage(Adw.Bin):
         self.script_path = os.path.join(self.app_path, "scripts", "browser.sh")
         self.browser_widgets = []
 
-        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=24)
+        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=11)
         main_box.set_margin_top(24)
         main_box.set_margin_bottom(24)
         main_box.set_margin_start(36)
@@ -117,7 +117,7 @@ class BrowserPage(Adw.Bin):
 
         if not is_installed:
             # The script handles pkexec and user feedback, so we just run it.
-            install_result = self._run_script(["install", browser_data['package']])
+            self._run_script(["install", browser_data['package']])
             # We can check exit code if needed, but for now we'll just refresh.
 
         # Set as default after installation or if it was already installed

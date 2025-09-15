@@ -26,13 +26,11 @@ APP_PATH = os.path.dirname(os.path.abspath(__file__))
 action_widget.APP_PATH = APP_PATH
 
 class WelcomeWindow(Adw.ApplicationWindow):
-    # def __init__(self):
-    #     super().__init__(application_id='org.xivastudio.pipewire-proaudio-config')
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         self.set_default_size(800, 600)
-        self.set_title("Introduction to BigLinux")
+        self.set_title("org.biglinux.welcome")
 
         # Load page data from JSON
         self.pages_data = self.load_pages_data()
@@ -88,23 +86,6 @@ class WelcomeWindow(Adw.ApplicationWindow):
         self.progress_box = Gtk.Box(spacing=6)
         self.header_bar.set_title_widget(self.progress_box)
 
-        # # Populate carousel and progress bar
-        # for i, page_data in enumerate(self.pages_data):
-        #     page = WelcomePage(page_data)
-        #     self.carousel.append(page)
-        #
-        #     icon_name = page_data.get("icon", "emblem-default-symbolic")
-        #     icon_widget = Gtk.Image.new_from_icon_name(icon_name)
-        #     icon_widget.set_pixel_size(24) # Set the desired size
-        #
-        #     progress_icon = Gtk.Button()
-        #     progress_icon.set_child(icon_widget)
-        #
-        #     progress_icon.set_has_frame(False)
-        #     progress_icon.add_css_class("circular")
-        #     progress_icon.connect("clicked", self.on_progress_icon_clicked, i)
-        #     self.progress_box.append(progress_icon)
-        # Populate carousel and progress bar
         for i, page_data in enumerate(self.pages_data):
             # Decide which page type to create
             if page_data.get("page_type") == "browsers":
@@ -184,10 +165,11 @@ class BigLinuxWelcome(Adw.Application):
         css_provider = Gtk.CssProvider()
         css_provider.load_from_data(
             b"""
-            .is-not-installed image {
-                filter: grayscale(1);
-                opacity: 0.7;
-            }
+            .is-not-installed image,
+            .is-not-installed picture {
+                 filter: grayscale(1);
+                 opacity: 0.7;
+             }
             """
         )
         Gtk.StyleContext.add_provider_for_display(

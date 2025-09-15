@@ -32,12 +32,22 @@ runAsUser "zenity --progress --title='Install Browser' --text=\"$zenityText\" --
 installBrowser() {
   if [[ "$browser" == "brave" ]]; then
     pacman -Syu --noconfirm brave
+  elif [[ "$browser" == "chromium" ]]; then
+    pacman -Syu --noconfirm chromium
+  elif [[ "$browser" == "google-chrome" ]]; then
+    yay -Syu --noconfirm google-chrome
+  elif [[ "$browser" == "falkon" ]]; then
+    pacman -Syu --noconfirm falkon
   elif [[ "$browser" == "firefox" ]]; then
     pacman -Syu --noconfirm firefox
-  elif [[ "$browser" == "google-chrome" ]]; then
-    pamac-installer --build google-chrome
   elif [[ "$browser" == "librewolf" ]]; then
-    pamac-installer --build librewolf-bin
+    yay -Syu --noconfirm librewolf-bin
+  elif [[ "$browser" == "opera" ]]; then
+    yay -Syu --noconfirm opera
+  elif [[ "$browser" == "vivaldi" ]]; then
+    pacman -Syu --noconfirm vivaldi
+  elif [[ "$browser" == "edge" ]]; then
+    yay -Syu --noconfirm microsoft-edge-stable-bin
   fi
   exitCode=$?
 }
