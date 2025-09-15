@@ -30,29 +30,31 @@ runAsUser "zenity --progress --title='Install Browser' --text=\"$zenityText\" --
 
 # 3. Executes the root tasks.
 installBrowser() {
+  log="/var/log/biglinux-welcome.log"
+  echo "" >> $log
+  date >> $log
   if [[ "$browser" == "brave" ]]; then
-    pacman -Syu --noconfirm brave
+    pacman -Syu --noconfirm brave >> $log 2>&1
   elif [[ "$browser" == "chromium" ]]; then
-    pacman -Syu --noconfirm chromium
+    pacman -Syu --noconfirm chromium >> $log 2>&1
   elif [[ "$browser" == "google-chrome" ]]; then
-    yay -Syu --noconfirm google-chrome
+    yay -Syu --noconfirm google-chrome >> $log 2>&1
   elif [[ "$browser" == "falkon" ]]; then
-    pacman -Syu --noconfirm falkon
+    pacman -Syu --noconfirm falkon >> $log 2>&1
   elif [[ "$browser" == "firefox" ]]; then
-    pacman -Syu --noconfirm firefox
+    pacman -Syu --noconfirm firefox >> $log 2>&1
   elif [[ "$browser" == "librewolf" ]]; then
-    yay -Syu --noconfirm librewolf-bin
+    yay -Syu --noconfirm librewolf-bin >> $log 2>&1
   elif [[ "$browser" == "opera" ]]; then
-    yay -Syu --noconfirm opera
+    yay -Syu --noconfirm opera 2>&1 >> $log 2>&1
   elif [[ "$browser" == "vivaldi" ]]; then
-    pacman -Syu --noconfirm vivaldi
+    pacman -Syu --noconfirm vivaldi 2>&1 >> $log 2>&1
   elif [[ "$browser" == "edge" ]]; then
-    yay -Syu --noconfirm microsoft-edge-stable-bin
+    yay -Syu --noconfirm microsoft-edge-stable-bin >> $log 2>&1
   fi
   exitCode=$?
 }
 installBrowser > "$pipePath"
-# sleep 2 > "$pipePath"
 
 # 4. Cleans up the pipe
 rm "$pipePath"

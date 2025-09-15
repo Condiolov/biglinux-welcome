@@ -51,7 +51,7 @@ checkBrowserState() {
       echo "false"
     fi
   elif [[ "$1" == "edge" ]];then
-    if [[ -e "/usr/bin/edge" ]];then
+    if [[ -e "/usr/bin/microsoft-edge-stable" ]];then
       echo "true"
     else
       echo "false"
@@ -75,7 +75,7 @@ installBrowser() {
   # Get the directory where the script is located
   local script_dir
   script_dir="$(dirname "$(readlink -f "$0")")"
-  pkexec "$PWD/browserInstall.sh" "$1" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+  pkexec "$script_dir/browserInstall.sh" "$1" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
   exitCode=$?
   exit $exitCode
 }

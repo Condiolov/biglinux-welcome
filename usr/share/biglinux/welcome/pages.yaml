@@ -47,7 +47,7 @@
     - label: "Falkon"
       type: "browser"
       package: "falkon"
-      desktop_file: "falkon.desktop"
+      desktop_file: "org.kde.falkon.desktop"
 
     - label: "Firefox"
       type: "browser"
@@ -67,12 +67,12 @@
     - label: "Vivaldi"
       type: "browser"
       package: "vivaldi"
-      desktop_file: "vivaldi.desktop"
+      desktop_file: "vivaldi-stable.desktop"
 
     - label: "Edge"
       type: "browser"
       package: "edge"
-      desktop_file: "edge.desktop"
+      desktop_file: "microsoft-edge.desktop"
 
 - title: "KDE Connect"
   subtitle: "KDE Connect is an application that facilitates wireless communication and data transfer between devices on local networks. Available on the Google Play Store for Android and the Apple Store for iPhone."
@@ -140,12 +140,12 @@
     - label: "Configure voice"
       icon: "/usr/share/bigbashview/bcc/apps/tts/icon-grid-texto-fala-tts.svg"
       type: "app"
-      command: "tts-selected-text"
+      command: "tts-config"
 
     - label: "OCR to PDF"
       icon: "bigocrpdf"
       type: "app"
-      command: "bigocrpdf %F"
+      command: "bigocrpdf"
 
 - title: "Donation and Social Networks"
   subtitle: "Your donation is very important for the project and follow us on social media."
