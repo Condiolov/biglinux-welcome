@@ -53,6 +53,14 @@ msgstr "选择您的头像"
 msgid "Choose your default browser"
 msgstr "选择您的默认浏览器"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 19
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 20
+msgid "Chromium"
+msgstr "铬浏览器"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 18
 msgid "Configure voice"
 msgstr "配置语音"
@@ -85,6 +93,14 @@ msgstr "驱动程序安装和硬件信息"
 msgid "Driver Manager"
 msgstr "驱动程序管理器"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 29
+msgid "Edge"
+msgstr "边缘"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 30
+msgid "Falkon"
+msgstr "法尔孔"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 26
 msgid "Firefox"
 msgstr "火狐浏览器"
@@ -92,10 +108,6 @@ msgstr "火狐浏览器"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 27
 msgid "Forum"
 msgstr "论坛"
-# 
-# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 28
-msgid "Google Chrome"
-msgstr "谷歌浏览器"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 29
 msgid "Initial Settings"
@@ -120,6 +132,10 @@ msgstr "KDE Connect 是一款促进本地网络设备之间无线通信和数据
 msgid "Language Packs"
 msgstr "语言包"
 # 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 38
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 34
 msgid "Noise Reduction"
 msgstr "噪声减少"
@@ -127,6 +143,10 @@ msgstr "噪声减少"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 35
 msgid "OCR to PDF"
 msgstr "OCR 转 PDF"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
+msgid "Opera"
+msgstr "歌剧"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 36
 msgid "Our platform is collaborative, join this evolution."
@@ -151,6 +171,10 @@ msgstr "电报"
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 41
 msgid "Themes and Tweaks"
 msgstr "主题和调整"
+# 
+# File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 48
+msgid "Vivaldi"
+msgstr "维瓦尔第"
 # 
 # File: biglinux-welcome/usr/share/biglinux/welcome/translatable_strings.py, line: 42
 msgid "We provide comprehensive settings for you to select in an extremely simple way."
